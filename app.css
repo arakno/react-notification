@@ -1,0 +1,61 @@
+body {
+  background: #20262E;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+#app {
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.todolist {
+  width: 100%;
+}
+
+li {
+  margin: 8px 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.done {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+input {
+  margin-right: 5px;
+}
+
+.warning {
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
+  width: auto;
+  position: relative;
+  padding: 1em;
+  margin-right: 2em;
+}
+
+.warning span {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .warning {
+    max-height: 50vw;
+    overflow-y: scroll;
+    font-size: 28px;
+  }
+}
