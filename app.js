@@ -1,3 +1,8 @@
+// DEPRECATED! Use index.jsx
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 class Notification extends React.Component {
   constructor(props){
     super(props)
@@ -104,4 +109,4 @@ class Container extends React.Component {
     }
   }
   
-ReactDOM.render(<Container />, document.querySelector("#app"))
+ReactDOM.render(<Container />, document.querySelector("#main"))
