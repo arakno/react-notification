@@ -6,10 +6,20 @@ this notification button should:
 - last for 2 sec
 - disappear
 
-# Install
+## Install
 clone this repo then:
 https://zeroserver.io/
 
 `$ npm install -g zero`  
+
+## Run (kordos!)
 and start the server with:  
 `$ zero`
+
+
+### TODO
+- add tests
+- fix styling
+- make better API for notification config
+- fix a11y
+- 
